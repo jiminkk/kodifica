@@ -846,6 +846,114 @@
         ]
     },
     {
+        "id" : "MA",
+        "name" : "Massachusetts",
+        "coords" : {
+            "x" : -3050,
+            "y" : -360,
+            "scale" : 5
+        },
+        "subregionsData" : [ 
+            {
+                "id" : "boston",
+                "name" : "Boston",
+                "coords" : {
+                    "lat" : 42.3576221,
+                    "long" : -71.0613254,
+                    "zoom" : 12
+                },
+                "poiData" : [
+                    {
+                        "id" : "thinking_cup",
+                        "name" : "Thinking Cup",
+                        "address1" : "165 Tremont St.",
+                        "address2" : "",
+                        "city" : "Boston",
+                        "state" : "MA",
+                        "zip" : "02111",
+                        "country" : "USA",
+                        "coords" : {
+                            "lat" : 42.354001,
+                            "long" : -71.063745,
+                            "zoom" : 14
+                        }
+                    },
+                    {
+                        "id" : "pavement_newbury",
+                        "name" : "Pavement Coffeehouse",
+                        "address1" : "286 Newbury St.",
+                        "address2" : "",
+                        "city" : "Boston",
+                        "state" : "MA",
+                        "zip" : "02115",
+                        "country" : "USA",
+                        "coords" : {
+                            "lat" : 42.348889,
+                            "long" : -71.084426,
+                            "zoom" : 14 
+                        }
+                    },
+                    {
+                        "id" : "wired_puppy",
+                        "name" : "Wired Puppy",
+                        "address1" : "250 Newbury St.",
+                        "address2" : "",
+                        "city" : "Boston",
+                        "state" : "MA",
+                        "zip" : "02116",
+                        "country" : "USA",
+                        "coords" : {
+                            "lat" : 42.349398,
+                            "long" : -71.08263,
+                            "zoom" : 14 
+                        }
+                    },
+                    {
+                        "id" : "barrington_congress",
+                        "name" : "Barrington Coffee Roasting Co.",
+                        "address1" : "346 Congress St.",
+                        "address2" : "",
+                        "city" : "Boston",
+                        "state" : "MA",
+                        "zip" : "02210",
+                        "country" : "USA",
+                        "coords" : {
+                            "lat" : 42.3539898,
+                            "long" : -71.0560448,
+                            "zoom" : 14 
+                        }
+                    }
+                ]
+            },
+            {
+                "id" : "boston",
+                "name" : "Cambridge",
+                "coords" : {
+                    "lat" : 42.3652327,
+                    "long" : -71.0935977,
+                    "zoom" : 12
+                },
+                "poiData" : [
+                    {
+                        "id" : "voltage_coffee_and_art",
+                        "name" : "Voltage Coffee & Art",
+                        "address1" : "295 Third St",
+                        "address2" : "",
+                        "city" : "Cambridge",
+                        "state" : "MA",
+                        "zip" : "02142",
+                        "country" : "USA",
+                        "coords" : {
+                            "lat" : 42.364348,
+                            "long" : -71.08347,
+                            "zoom" : 14
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id" : "WA",
         "name" : "Washington",
         "coords" : {
@@ -942,6 +1050,36 @@
                         "coords" : {
                             "lat" : 45.515424,
                             "long" : -122.66547,
+                            "zoom" : 17
+                        }
+                    },
+                    {
+                        "id" : "barista_sw",
+                        "name" : "Barista",
+                        "address1" : "529 SW 3rd Ave",
+                        "address2" : "#110",
+                        "city" : "Portland",
+                        "state" : "OR",
+                        "zip" : "97204",
+                        "country" : "USA",
+                        "coords" : {
+                            "lat" : 45.5231816,
+                            "long" : -122.6760514,
+                            "zoom" : 17
+                        }
+                    },
+                    {
+                        "id" : "coava_brew_bar",
+                        "name" : "Coava Coffee Brew Bar",
+                        "address1" : "1300 SE Grand Ave.",
+                        "address2" : "",
+                        "city" : "Portland",
+                        "state" : "OR",
+                        "zip" : "97214",
+                        "country" : "USA",
+                        "coords" : {
+                            "lat" : 45.513445,
+                            "long" : -122.660443,
                             "zoom" : 17
                         }
                     }
