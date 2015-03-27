@@ -925,6 +925,21 @@
                             "long" : -71.0560448,
                             "zoom" : 14
                         }
+                    },
+                    {
+                        "id" : "render_coffee",
+                        "name" : "Render Coffee",
+                        "address1" : "563 Columbus Ave",
+                        "address2" : "",
+                        "city" : "Boston",
+                        "state" : "MA",
+                        "zip" : "02118",
+                        "country" : "USA",
+                        "coords" : {
+                            "lat" : 42.341087,
+                            "long" : -71.081463,
+                            "zoom" : 14
+                        }
                     }
                 ]
             },
@@ -1166,8 +1181,8 @@
                     {
                         "id" : "brew_and_brew",
                         "name" : "Wright Bros. Brew & Brew",
-                        "address1" : "500 San Marcos St",
-                        "address2" : "#105",
+                        "address1" : "500 San Marcos St #105",
+                        "address2" : "",
                         "city" : "Austin",
                         "state" : "TX",
                         "zip" : "78702",
