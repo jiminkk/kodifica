@@ -1,4 +1,5 @@
 [
+
     {
         "id" : "CA",
         "name" : "California",
@@ -369,6 +370,7 @@
             }
         ]
     },
+
     {
         "id" : "NY",
         "name" : "New York",
@@ -845,6 +847,7 @@
             }
         ]
     },
+
     {
         "id" : "MA",
         "name" : "Massachusetts",
@@ -853,7 +856,7 @@
             "y" : -360,
             "scale" : 5
         },
-        "subregionsData" : [ 
+        "subregionsData" : [
             {
                 "id" : "boston",
                 "name" : "Boston",
@@ -890,7 +893,7 @@
                         "coords" : {
                             "lat" : 42.348889,
                             "long" : -71.084426,
-                            "zoom" : 14 
+                            "zoom" : 14
                         }
                     },
                     {
@@ -905,7 +908,7 @@
                         "coords" : {
                             "lat" : 42.349398,
                             "long" : -71.08263,
-                            "zoom" : 14 
+                            "zoom" : 14
                         }
                     },
                     {
@@ -920,7 +923,22 @@
                         "coords" : {
                             "lat" : 42.3539898,
                             "long" : -71.0560448,
-                            "zoom" : 14 
+                            "zoom" : 14
+                        }
+                    },
+                    {
+                        "id" : "render_coffee",
+                        "name" : "Render Coffee",
+                        "address1" : "563 Columbus Ave",
+                        "address2" : "",
+                        "city" : "Boston",
+                        "state" : "MA",
+                        "zip" : "02118",
+                        "country" : "USA",
+                        "coords" : {
+                            "lat" : 42.341087,
+                            "long" : -71.081463,
+                            "zoom" : 14
                         }
                     }
                 ]
@@ -1020,6 +1038,7 @@
             }
         ]
     },
+
     {
         "id" : "OR",
         "name" : "Oregon",
@@ -1087,6 +1106,7 @@
             }
         ]
     },
+
     {
         "id" : "CT",
         "name" : "Connecticut",
@@ -1133,6 +1153,104 @@
                             "lat" : 41.311073,
                             "long" : -72.931337,
                             "zoom" : 17
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "id" : "TX",
+        "name" : "Texas",
+        "coords" : {
+            "x" : -555,
+            "y" : -600,
+            "scale" : 2.5
+        },
+        "subregionsData" : [
+            {
+                "id" : "austin",
+                "name" : "Austin",
+                "coords" : {
+                    "lat" : 30.2669974,
+                    "long" : -97.7450758,
+                    "zoom" : 12
+                },
+                "poiData" : [
+                    {
+                        "id" : "brew_and_brew",
+                        "name" : "Wright Bros. Brew & Brew",
+                        "address1" : "500 San Marcos St #105",
+                        "address2" : "",
+                        "city" : "Austin",
+                        "state" : "TX",
+                        "zip" : "78702",
+                        "country" : "USA",
+                        "coords" : {
+                            "lat" : 30.264487,
+                            "long" : -97.733004,
+                            "zoom" : 15
+                        }
+                    },
+                    {
+                        "id" : "cuvee",
+                        "name" : "Cuvee Coffee Bar",
+                        "address1" : "200 E 6th St",
+                        "address2" : "",
+                        "city" : "Austin",
+                        "state" : "TX",
+                        "zip" : "78702",
+                        "country" : "USA",
+                        "coords" : {
+                            "lat" : 30.261508,
+                            "long" : -97.720964,
+                            "zoom" : 15
+                        }
+                    },
+                    {
+                        "id" : "flat_track",
+                        "name" : "Flat Track Coffee",
+                        "address1" : "913 E Cesar Chavez St",
+                        "address2" : "",
+                        "city" : "Austin",
+                        "state" : "TX",
+                        "zip" : "78702",
+                        "country" : "USA",
+                        "coords" : {
+                            "lat" : 30.260471,
+                            "long" : -97.734804,
+                            "zoom" : 15
+                        }
+                    },
+                    {
+                        "id" : "caffe_medici",
+                        "name" : "Caffe Medici",
+                        "address1" : "200 Congress Ave",
+                        "address2" : "",
+                        "city" : "Austin",
+                        "state" : "TX",
+                        "zip" : "78701",
+                        "country" : "USA",
+                        "coords" : {
+                            "lat" : 30.264845,
+                            "long" : -97.744198,
+                            "zoom" : 15
+                        }
+                    },
+                    {
+                        "id" : "jos",
+                        "name" : "Jo's Coffee",
+                        "address1" : "1300 S Congress Ave",
+                        "address2" : "",
+                        "city" : "Austin",
+                        "state" : "TX",
+                        "zip" : "78704",
+                        "country" : "USA",
+                        "coords" : {
+                            "lat" : 30.251044,
+                            "long" : -97.749371,
+                            "zoom" : 15
                         }
                     }
                 ]

@@ -37,7 +37,7 @@ research.factory('birdseye', [function() {
             // So this is bad, but I'm too lazy to filter out the dataset right now
             cities.forEach(function(el,index) {
                 var name = el.properties.name;
-                if (name == "Los Angeles" || name == "San Francisco" || name == "New York" || name == "New Haven" || name == "Portland" || name == "Seattle" || name == "Boston" || name == "Cambridge") {
+                if (name == "Los Angeles" || name == "San Francisco" || name == "New York" || name == "New Haven" || name == "Portland" || name == "Seattle" || name == "Boston" || name == "Cambridge" || name == "Austin") {
                     truncatedCities.push(el);
                 }
             });
@@ -58,8 +58,8 @@ research.factory('birdseye', [function() {
         focus : function(x,y,s,d) {
             this.zoomListener.translate([x,y]).scale(s);
             this.zoomListener.event(this.svgMap.transition().duration(d));
-        } 
+        }
     }
-    
+
     return birdseye;
 }]);

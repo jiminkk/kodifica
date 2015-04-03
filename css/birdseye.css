@@ -88,7 +88,8 @@
 .subunit#NY,
 .subunit#CT,
 .subunit#WA,
-.subunit#MA {
+.subunit#MA,
+.subunit#TX {
     fill: rgba(44, 43, 43, 0.9);
     transition: all 0.5s ease-in-out;
 }
@@ -107,10 +108,13 @@
 .subunit.selected#CT,
 .subunit#WA:hover,
 .subunit.hover#WA,
-.subunit.selected#WA, 
+.subunit.selected#WA,
 .subunit#MA:hover,
 .subunit.hover#MA,
-.subunit.selected#MA {
+.subunit.selected#MA,
+.subunit#TX:hover,
+.subunit.hover#TX,
+.subunit.selected#TX {
     fill: #9B6B00;
     cursor: pointer;
 }
