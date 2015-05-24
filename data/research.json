@@ -367,6 +367,32 @@
                         }
                     }
                 ]
+            },
+            {
+                "id" : "sacramento",
+                "name" : "Sacramento",
+                "coords" : {
+                    "lat" : 38.5615405,
+                    "long" : -121.4429125,
+                    "zoom" : 11
+                },
+                "poiData" : [
+                    {
+                        "id" : "temple",
+                        "name" : "Temple Coffee Roasters",
+                        "address1" : "2829 S St.",
+                        "address2" : "",
+                        "city" : "Sacramento",
+                        "state" : "CA",
+                        "zip" : "95816",
+                        "country" : "USA",
+                        "coords" : {
+                            "lat" : 38.563927,
+                            "long" : -121.472419,
+                            "zoom" : 17
+                        }
+                    }
+                ]
             }
         ]
     },
