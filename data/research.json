@@ -577,6 +577,21 @@
                             "long" : -73.989968,
                             "zoom" : 17
                         }
+                    },
+                    {
+                        "id" : "ninth_st_espresso",
+                        "name" : "Ninth Street Espresso",
+                        "address1" : "700 E. 9th St.",
+                        "address2" : "",
+                        "city" : "New York",
+                        "state" : "NY",
+                        "zip" : "10009",
+                        "country" : "USA",
+                        "coords" : {
+                            "lat" : 40.7250436,
+                            "long" : -73.9778095,
+                            "zoom" : 17
+                        }
                     }
                 ]
             },
@@ -601,6 +616,21 @@
                         "coords" : {
                             "lat" : 40.743615,
                             "long" : -73.986445,
+                            "zoom" : 17
+                        }
+                    },
+                    {
+                        "id" : "irving_farm",
+                        "name" : "Irving Farm Coffee Roasters",
+                        "address1" : "71 Irving Pl.",
+                        "address2" : "",
+                        "city" : "New York",
+                        "state" : "NY",
+                        "zip" : "10003",
+                        "country" : "USA",
+                        "coords" : {
+                            "lat" : 40.736793,
+                            "long" : -73.9869726,
                             "zoom" : 17
                         }
                     }
@@ -683,6 +713,21 @@
                         "coords" : {
                             "lat" : "40.714173",
                             "long" : "-73.96165",
+                            "zoom" : 17
+                        }
+                    },
+                    {
+                        "id" : "freehold",
+                        "name" : "Freehold",
+                        "address1" : "45 S. 3rd St.",
+                        "address2" : "",
+                        "city" : "Brooklyn",
+                        "state" : "NY",
+                        "zip" : "11249",
+                        "country" : "USA",
+                        "coords" : {
+                            "lat" : "40.7136902",
+                            "long" : "-73.9657715",
                             "zoom" : 17
                         }
                     }
