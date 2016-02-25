@@ -126,21 +126,22 @@ small {
 }
 
 #header_nav.tiny #logo {
-  width: 150px;
-  height: 150px;
+  width: 60px;
+  height: 65px;
 }
 
 #header_nav.tiny li {
   top: 0px;
+  width: 130px;
 }
 
 #header_nav.tiny #header {
-  width: 790px;
+  width: 1000px;
 }
 
 #header {
   height: 100px;
-  width: 960px;
+  width: 900px;
   position: relative;
   left: 50%;
   transition: all 0.5s ease-in-out;
@@ -155,15 +156,16 @@ small {
   float: left;
   color: #fff;
   text-align: center;
-  width: 110px;
+  /*width: 130px;*/
   font-family: 'Amatic SC', sans-serif;
   font-weight: 700;
-  margin: 20px;
+  margin: 40px;
   position: relative;
   top: 65px;
   text-shadow: 0 0 5px #000;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
+  /*padding-left: 10px;*/
 }
 
 #header li:hover {
@@ -171,19 +173,22 @@ small {
 }
 
 #header #logo {
-  background-image: url('../img/research-inverted.svg');
+  background-image: url('../img/research-inverted.png');
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  width: 100px;
+  height: 100px;
   color: rgba(0,0,0,0);
   background-position: center center;
   position: relative;
-  top: -50px;
+  top: 0px;
   text-shadow: none;
   margin-top: 30px;
   transition: all 0.5s ease-in-out;
 }
 
+#logo {
+  padding-left: 5px;
+}
 
 #menu td {
   text-align: center;
