@@ -8,7 +8,7 @@
             </ul>
         </section>
 
-        <section id="sub-regions" class="pane" ng-if="subregions">
+        <section id="subregions" class="pane" ng-if="subregions">
             <ul>
                 <li ng-repeat="subregion in subregions"><a class="{{subregion.selected ? 'selected' : ''}}" ng-click="subregion.select()" ng-mouseover="subregion.hoverOn()" ng-mouseleave="subregion.hoverOff()">{{subregion.name}}</a></li>
             </ul>
